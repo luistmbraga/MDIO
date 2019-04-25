@@ -1,0 +1,13 @@
+/*********************************************
+ * OPL 12.8.0.0 Data
+ * Author: joaon
+ * Creation Date: 04/12/2018 at 16:24:34
+ *********************************************/
+
+ SheetConnection sheet("matriz_custos.ods");
+
+n from SheetRead(sheet, "sheet1!n");
+vN from SheetRead(sheet, "sheet1!vN");
+vS from SheetRead(sheet, "sheet1!vS");
+vW from SheetRead(sheet, "sheet1!vW");
+vE from SheetRead(sheet, "sheet1!vE");
